@@ -1,0 +1,5 @@
+site_name: My Static Site
+nav:
+  - Home: index.md
+theme:
+  name: material  # Using the Material theme for a modern look
