@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+</head>
+<body>
+    <h2>Signup</h2>
+    <input type="email" id="signup-email" placeholder="Enter email" required>
+    <input type="password" id="signup-password" placeholder="Enter password" required>
+    <button id="signup-btn">Signup</button>
+
+    <h2>Login</h2>
+    <input type="email" id="login-email" placeholder="Enter email" required>
+    <input type="password" id="login-password" placeholder="Enter password" required>
+    <button id="login-btn">Login</button>
+
+    <!-- Import JavaScript as a module -->
+    <script type="module">
+        import { signup, login } from "./auth.js"; 
+
+        document.getElementById("signup-btn").addEventListener("click", signup);
+        document.getElementById("login-btn").addEventListener("click", login);
+    </script>
+</body>
+</html>

@@ -11,3 +11,7 @@ This is a simple static page created using MkDocs.
 ## Get Started
 
 Modify the `index.md` file to add your content.
+
+<button onclick="logout()" style="padding: 10px; background: red; color: white; border: none; cursor: pointer;">
+    Logout
+</button>

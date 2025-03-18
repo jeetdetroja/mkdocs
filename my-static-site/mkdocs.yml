@@ -1,5 +1,12 @@
-site_name: My Static Site
+site_name: Protected MkDocs
+
 nav:
   - Home: index.md
-theme:
-  name: material  # Using the Material theme for a modern look
+  - Authentication: auth.html
+
+extra_css:
+  - style.css
+
+extra_javascript:
+  - auth.js
+  - restrict.js # New script to check authentication on every page
