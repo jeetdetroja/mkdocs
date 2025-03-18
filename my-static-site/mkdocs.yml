@@ -4,8 +4,8 @@ nav:
   - Home: index.md
   - Authentication: auth.html
 
-extra_css:
-  - style.css
+# extra_css:
+#   - styles.css
 
 extra_javascript:
   - auth.js
